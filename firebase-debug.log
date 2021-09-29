@@ -1,0 +1,205 @@
+[debug] [2021-09-29T18:38:12.000Z] ----------------------------------------------------------------------
+[debug] [2021-09-29T18:38:12.016Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DinhNhat\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-09-29T18:38:12.018Z] CLI Version:   9.18.0
+[debug] [2021-09-29T18:38:12.018Z] Platform:      win32
+[debug] [2021-09-29T18:38:12.019Z] Node Version:  v14.17.5
+[debug] [2021-09-29T18:38:12.022Z] Time:          Wed Sep 29 2021 20:38:12 GMT+0200 (Central European Summer Time)
+[debug] [2021-09-29T18:38:12.023Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-29T18:38:12.060Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-29T18:38:12.061Z] > authorizing via signed-in user (williamdinh2411@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\Learn Programmering\Quizz Test - Firebase Google
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-09-29T18:41:28.424Z] ----------------------------------------------------------------------
+[debug] [2021-09-29T18:41:28.441Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DinhNhat\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-09-29T18:41:28.444Z] CLI Version:   9.18.0
+[debug] [2021-09-29T18:41:28.445Z] Platform:      win32
+[debug] [2021-09-29T18:41:28.445Z] Node Version:  v14.17.5
+[debug] [2021-09-29T18:41:28.451Z] Time:          Wed Sep 29 2021 20:41:28 GMT+0200 (Central European Summer Time)
+[debug] [2021-09-29T18:41:28.452Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-29T18:41:28.496Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-29T18:41:28.498Z] > authorizing via signed-in user (williamdinh2411@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\Learn Programmering\Quizz Test - Firebase Google
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-09-29T18:42:15.287Z] > refreshing access token with scopes: []
+[debug] [2021-09-29T18:42:15.293Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-09-29T18:42:15.639Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Wed, 29 Sep 2021 18:42:07 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-29T18:42:15.857Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-09-29T18:42:16.692Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-09-29T18:42:16.693Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project learning-swedish (Learning Swedish) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-09-29T18:43:07.552Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-09-29T18:43:07.701Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-09-29T18:43:07.704Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.1.0","browserURL":"https://www.gstatic.com/firebasejs/9.1.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.1.0/firebase.tgz"},"live":{"version":"9.1","browserURL":"https://www.gstatic.com/firebasejs/live/9.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.1/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.1.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.1.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.1.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.1.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.1.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.1.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.1.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.1.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.1.0/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.1.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.1.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.1.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.1.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.1.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.1.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.1.0/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming E:\Learn Programmering\Quizz Test - Firebase Google is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=333084991&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-09-29T18:43:07.959Z] Error: spawn cmd ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:269:19)
+    at onErrorNT (internal/child_process.js:467:16)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2021-09-29T18:43:31.033Z] ----------------------------------------------------------------------
+[debug] [2021-09-29T18:43:31.051Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DinhNhat\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-09-29T18:43:31.053Z] CLI Version:   9.18.0
+[debug] [2021-09-29T18:43:31.054Z] Platform:      win32
+[debug] [2021-09-29T18:43:31.055Z] Node Version:  v14.17.5
+[debug] [2021-09-29T18:43:31.060Z] Time:          Wed Sep 29 2021 20:43:31 GMT+0200 (Central European Summer Time)
+[debug] [2021-09-29T18:43:31.061Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-29T18:43:31.112Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-29T18:43:31.114Z] > authorizing via signed-in user (williamdinh2411@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\Learn Programmering\Quizz Test - Firebase Google
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-09-29T18:43:53.763Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-09-29T18:43:54.704Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-09-29T18:43:54.706Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project learning-swedish (Learning Swedish) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-09-29T18:44:03.465Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-09-29T18:44:03.602Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-09-29T18:44:03.604Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.1.0","browserURL":"https://www.gstatic.com/firebasejs/9.1.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.1.0/firebase.tgz"},"live":{"version":"9.1","browserURL":"https://www.gstatic.com/firebasejs/live/9.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.1/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.1.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.1.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.1.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.1.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.1.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.1.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.1.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.1.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.1.0/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.1.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.1.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.1.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.1.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.1.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.1.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.1.0/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Didn't detect a .git folder. Assuming E:\Learn Programmering\Quizz Test - Firebase Google is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=113609696&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-09-29T18:44:13.949Z] Error: spawn cmd ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:269:19)
+    at onErrorNT (internal/child_process.js:467:16)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2021-09-29T18:46:33.024Z] ----------------------------------------------------------------------
+[debug] [2021-09-29T18:46:33.042Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DinhNhat\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-09-29T18:46:33.044Z] CLI Version:   9.18.0
+[debug] [2021-09-29T18:46:33.045Z] Platform:      win32
+[debug] [2021-09-29T18:46:33.046Z] Node Version:  v14.17.5
+[debug] [2021-09-29T18:46:33.051Z] Time:          Wed Sep 29 2021 20:46:33 GMT+0200 (Central European Summer Time)
+[debug] [2021-09-29T18:46:33.052Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-29T18:46:33.098Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-29T18:46:33.100Z] > authorizing via signed-in user (williamdinh2411@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\Learn Programmering\Quizz Test - Firebase Google
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-09-29T18:46:47.939Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-09-29T18:46:48.640Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-09-29T18:46:48.641Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project learning-swedish (Learning Swedish) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-09-29T18:46:56.755Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-09-29T18:46:56.897Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-09-29T18:46:56.899Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.1.0","browserURL":"https://www.gstatic.com/firebasejs/9.1.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.1.0/firebase.tgz"},"live":{"version":"9.1","browserURL":"https://www.gstatic.com/firebasejs/live/9.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.1/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.1.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.1.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.1.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.1.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.1.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.1.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.1.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.1.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.1.0/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.1.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.1.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.1.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.1.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.1.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.1.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.1.0/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming E:\Learn Programmering\Quizz Test - Firebase Google is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=269008397&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-09-29T18:46:59.156Z] Error: spawn cmd ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:269:19)
+    at onErrorNT (internal/child_process.js:467:16)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+[error] 
+[error] Error: An unexpected error has occurred.
